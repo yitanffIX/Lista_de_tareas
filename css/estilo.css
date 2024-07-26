@@ -1,0 +1,47 @@
+#contenedor{
+    background: gray;
+    border: 1px solid red;
+    box-shadow: 2px 2px 5px #171717;
+    height: auto;
+    width: 60%;
+    /*display: flex;*/
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 1px 1px 5px #171717;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+   }
+
+li{
+    align-items: flex-end;
+    margin: 10px 0px;
+}
+
+.tareas{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#nuevaTarea{
+
+    /*border: 1px solid blue;*/
+    box-shadow: 0px 0px 0px #171717;
+    padding: 10px 8px;
+
+}
+
+.boton{
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding: 5px;
+}
